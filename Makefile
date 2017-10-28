@@ -24,6 +24,7 @@ ifdef BRANCH
 	VERSION=dev-${BRANCH}
 endif
 PACKAGE=symfony-cmf/routing-bundle
+export KERNEL_CLASS=Symfony\Cmf\Bundle\RoutingBundle\Tests\App\AppKernel
 list:
 	@echo 'test:                    will run all tests'
 	@echo 'unit_tests:               will run unit tests only'
