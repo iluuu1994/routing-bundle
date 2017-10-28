@@ -28,15 +28,6 @@ list:
 	@echo 'test:                    will run all tests'
 	@echo 'unit_tests:               will run unit tests only'
 	@echo 'functional_tests_phpcr:  will run functional tests with PHPCR'
-<<<<<<< HEAD
-
-	@echo 'test_installation:    will run installation test'
-include ${TESTING_SCRIPTS_DIR}/make/unit_tests.mk
-include ${TESTING_SCRIPTS_DIR}/make/functional_tests_phpcr.mk
-include ${TESTING_SCRIPTS_DIR}/make/test_installation.mk
-
-test: unit_tests functional_tests_phpcr
-=======
 	@echo 'functional_tests_orm:    will run functional tests with ORM'
 	@echo 'test_installation:    will run installation test'
 include ${TESTING_SCRIPTS_DIR}/make/unit_tests.mk
@@ -46,4 +37,3 @@ include ${TESTING_SCRIPTS_DIR}/make/test_installation.mk
 
 .PHONY: test
 test: unit_tests functional_tests_phpcr functional_tests_orm
->>>>>>> bae209b9b0ee2eb8431e8ffd0c33281430baa7c8
