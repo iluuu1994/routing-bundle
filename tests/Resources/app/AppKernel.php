@@ -9,6 +9,8 @@
  * file that was distributed with this source code.
  */
 
+namespace Symfony\Cmf\Bundle\RoutingBundle\Tests\App;
+
 use Symfony\Cmf\Bundle\ResourceRestBundle\CmfResourceRestBundle;
 use Symfony\Cmf\Component\Testing\HttpKernel\TestKernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
