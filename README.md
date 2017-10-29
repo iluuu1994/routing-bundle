@@ -1,4 +1,4 @@
-a# Symfony CMF Routing Bundle
+# Symfony CMF Routing Bundle
 
 [![Latest Stable Version](https://poser.pugx.org/symfony-cmf/routing-bundle/v/stable)](https://packagist.org/packages/symfony-cmf/routing-bundle)
 [![Latest Unstable Version](https://poser.pugx.org/symfony-cmf/routing-bundle/v/unstable)](https://packagist.org/packages/symfony-cmf/routing-bundle)
