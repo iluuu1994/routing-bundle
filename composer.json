@@ -15,8 +15,7 @@
         "php": "^5.6|^7.0",
         "symfony-cmf/routing": "^2.0",
         "symfony/framework-bundle": "^2.8|^3.0",
-        "symfony/twig-bundle": "^2.8|^3.0",
-        "symfony-cmf/testing": "^2.1@dev"
+        "symfony/twig-bundle": "^2.8|^3.0"
     },
     "require-dev": {
         "doctrine/phpcr-odm": "^1.4",
@@ -43,7 +42,7 @@
     "autoload-dev": {
         "psr-4": {
             "Symfony\\Cmf\\Bundle\\RoutingBundle\\Tests\\": "tests/",
-            "Symfony\\Cmf\\Bundle\\RoutingBundle\\Tests\\App": "tests/Resources/app"
+            "Symfony\\Cmf\\Bundle\\RoutingBundle\\Tests\\App\\": "tests/Resources/app"
         }
     },
     "extra": {
