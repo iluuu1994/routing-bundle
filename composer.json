@@ -23,7 +23,7 @@
         "matthiasnoback/symfony-dependency-injection-test": "~0.6",
         "matthiasnoback/symfony-config-test": "^1.3.1",
         "doctrine/orm": "^2.5",
-        "symfony-cmf/testing": "dev-be_aware_of_deprecations",
+        "symfony-cmf/testing": "dev-master-dev-kit",
         "doctrine/data-fixtures": "^1.0.0"
     },
     "suggest": {
